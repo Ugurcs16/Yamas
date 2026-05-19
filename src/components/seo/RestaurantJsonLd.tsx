@@ -1,14 +1,18 @@
 import { SITE } from "@/lib/constants";
+import { getTranslations } from "next-intl/server";
 
-export function RestaurantJsonLd() {
+export async function RestaurantJsonLd() {
+  const site = await getTranslations("site");
+  const meta = await getTranslations("meta");
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Restaurant",
-    name: SITE.name,
-    description: SITE.tagline,
+    name: site("name"),
+    description: meta("description"),
     address: {
       "@type": "PostalAddress",
-      streetAddress: SITE.addressStreet,
+      streetAddress: site("addressStreet"),
       addressLocality: "Clausthal-Zellerfeld",
       postalCode: "38678",
       addressCountry: "DE",

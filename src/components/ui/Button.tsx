@@ -1,5 +1,6 @@
 "use client";
 
+import { usePrefersReducedMotion } from "@/lib/use-media";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -30,9 +31,9 @@ const variants: Record<Variant, string> = {
 };
 
 const sizes: Record<Size, string> = {
-  sm: "px-5 py-2.5 text-[11px]",
-  md: "px-7 py-3.5 text-xs",
-  lg: "px-9 py-4 text-xs",
+  sm: "px-5 py-2.5 text-[11px] min-h-[40px]",
+  md: "px-7 py-3.5 text-xs min-h-[44px]",
+  lg: "px-9 py-4 text-xs min-h-[48px] lg:min-h-[44px]",
 };
 
 export function Button({
@@ -45,14 +46,20 @@ export function Button({
   external,
   ariaLabel,
 }: ButtonProps) {
+  const reducedMotion = usePrefersReducedMotion();
+
   const classes = cn(
-    "relative inline-flex items-center justify-center gap-2.5 overflow-hidden transition-all duration-500 rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-champagne",
+    "relative inline-flex items-center justify-center gap-2.5 overflow-hidden transition-all duration-500 rounded-sm touch-manipulation",
+    "focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-champagne",
+    "active:scale-[0.98]",
     variants[variant],
     sizes[size],
     className
   );
 
-  const content = (
+  const content = reducedMotion ? (
+    <span className="relative z-10 inline-flex items-center justify-center gap-2.5">{children}</span>
+  ) : (
     <motion.span
       className="relative z-10 inline-flex items-center justify-center gap-2.5"
       whileHover={{ y: -2 }}
@@ -66,7 +73,7 @@ export function Button({
   const shimmer =
     variant === "primary" ? (
       <span
-        className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/20 to-transparent group-hover:animate-[shimmer_1.5s_ease-in-out]"
+        className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/20 to-transparent group-hover:animate-[shimmer_1.5s_ease-in-out] motion-reduce:hidden"
         aria-hidden
       />
     ) : null;
@@ -81,7 +88,12 @@ export function Button({
   if (href) {
     if (external || href.startsWith("http") || href.startsWith("tel:") || href.startsWith("#")) {
       return (
-        <a href={href} className={cn(classes, "group")} aria-label={ariaLabel} {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}>
+        <a
+          href={href}
+          className={cn(classes, "group")}
+          aria-label={ariaLabel}
+          {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+        >
           {inner}
         </a>
       );

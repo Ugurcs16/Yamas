@@ -1,8 +1,13 @@
-import { SITE } from "@/lib/constants";
+"use client";
+
 import { GreekDivider } from "@/components/ui/GreekDivider";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
+import { SITE } from "@/lib/constants";
+import { useTranslations } from "next-intl";
 
 export function Footer() {
+  const t = useTranslations("footer");
+  const site = useTranslations("site");
   const year = new Date().getFullYear();
 
   return (
@@ -12,18 +17,18 @@ export function Footer() {
         <GreekDivider className="mx-auto mb-12" />
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-16">
           <div>
-            <p className="font-display text-3xl text-ivory font-medium mb-1">{SITE.name}</p>
+            <p className="font-display text-3xl text-ivory font-medium mb-1">{site("name")}</p>
             <p className="text-[10px] uppercase tracking-[0.3em] text-ivory-dim mb-4">
-              {SITE.subtitle}
+              {site("subtitle")}
             </p>
             <p className="text-ivory-muted text-sm font-light leading-relaxed">
-              {SITE.tagline}
+              {site("tagline")}
             </p>
           </div>
           <address className="not-italic text-sm font-light leading-relaxed space-y-2 text-ivory-muted">
-            <p className="text-champagne text-xs uppercase tracking-[0.25em] mb-3">Adresse</p>
-            <p className="text-ivory">{SITE.addressStreet}</p>
-            <p>{SITE.addressCity}</p>
+            <p className="text-champagne text-xs uppercase tracking-[0.25em] mb-3">{t("address")}</p>
+            <p className="text-ivory">{site("addressStreet")}</p>
+            <p>{site("addressCity")}</p>
             <p className="pt-3">
               <a
                 href={SITE.phoneHref}
@@ -35,20 +40,28 @@ export function Footer() {
           </address>
           <div className="text-sm font-light leading-relaxed space-y-2 text-ivory-muted">
             <p className="text-champagne text-xs uppercase tracking-[0.25em] mb-3">
-              Öffnungszeiten
+              {t("hours")}
             </p>
-            <p className="text-ivory">{SITE.hours}</p>
-            <p>{SITE.breakfastHours}</p>
+            <p className="text-ivory">{site("hours")}</p>
+            <p>{site("breakfastHours")}</p>
           </div>
         </div>
         <div className="mt-14 pt-8 border-t border-white/5 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-ivory-dim tracking-wide">
-          <p>© {year} {SITE.name}. Alle Rechte vorbehalten.</p>
-          <nav className="flex gap-8" aria-label="Rechtliches">
-            <Link href="/impressum" className="hover:text-champagne transition-colors uppercase tracking-wider">
-              Impressum
+          <p>
+            © {year} {site("name")}. {t("rights")}
+          </p>
+          <nav className="flex gap-8" aria-label={t("legal")}>
+            <Link
+              href="/impressum"
+              className="hover:text-champagne transition-colors uppercase tracking-wider"
+            >
+              {t("impressum")}
             </Link>
-            <Link href="/datenschutz" className="hover:text-champagne transition-colors uppercase tracking-wider">
-              Datenschutz
+            <Link
+              href="/datenschutz"
+              className="hover:text-champagne transition-colors uppercase tracking-wider"
+            >
+              {t("privacy")}
             </Link>
           </nav>
         </div>

@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "title": "Yamas Clausthal-Zellerfeld | Griechisches Restaurant",
+    "description": "Frische griechische Küche in Clausthal-Zellerfeld. Gyros, Souvlaki, Pita, Salate, Burger, Pasta und halal Hähnchengerichte.",
+    "ogAlt": "Yamas – Griechisches Restaurant in Clausthal-Zellerfeld",
+    "keywords": "Yamas,Griechisches Restaurant,Clausthal-Zellerfeld,Gyros,Souvlaki,Halal"
+  },
+  "nav": {
+    "start": "Start",
+    "about": "Über uns",
+    "menu": "Speisekarte",
+    "breakfast": "Frühstück",
+    "contact": "Kontakt",
+    "call": "Anrufen",
+    "callAria": "Jetzt anrufen",
+    "menuOpen": "Menü öffnen",
+    "menuClose": "Menü schließen",
+    "mainNav": "Hauptnavigation"
+  },
+  "hero": {
+    "ariaLabel": "Willkommen bei Yamas",
+    "badge": "Yamas Clausthal-Zellerfeld",
+    "titleLine1": "Griechischer",
+    "titleLine2": "Genuss.",
+    "titleLine3": "Elegant serviert.",
+    "subtitle": "Yamas bringt mediterrane Wärme, frische Küche und authentische griechische Spezialitäten nach Clausthal-Zellerfeld.",
+    "ctaCall": "Jetzt anrufen",
+    "ctaMenu": "Speisekarte entdecken",
+    "trustAria": "Unsere Vorteile",
+    "grillLabel": "Vom Grill",
+    "grillTitle": "Gyros & Souvlaki",
+    "souvlakiLabel": "Souvlaki",
+    "hospitality": "Gastfreundschaft",
+    "openLabel": "Geöffnet",
+    "halalNote": "Alle Hähnchengerichte sind halal.",
+    "discover": "Entdecken",
+    "mobileOpen": "Heute geöffnet",
+    "mobileHalal": "Halal Hähnchen"
+  },
+  "trust": {
+    "daily": "Täglich geöffnet",
+    "halal": "Halal Hähnchengerichte",
+    "fresh": "Frisch zubereitet",
+    "takeaway": "Zum Mitnehmen & Liefern"
+  },
+  "intro": {
+    "eyebrow": "Über Yamas",
+    "quote": "Mitten im Herzen von Clausthal erwartet dich griechische Küche — {fresh} und mit viel Liebe zubereitet.",
+    "fresh": "frisch, authentisch",
+    "body": "Ob Gyros, Souvlaki, knackige Salate, Hähnchengerichte, Pasta, Burger oder Schnitzel — bei Yamas findet jeder etwas Passendes. Familiengeführt, herzlich und mit dem Anspruch, jeden Besuch unvergesslich zu machen.",
+    "reserve": "Tisch reservieren",
+    "menu": "Speisekarte",
+    "atmosphere": "Atmosphäre",
+    "atmosphereTitle": "Warm. Elegant. Griechisch.",
+    "pitaFresh": "Pita frisch",
+    "interiorAlt": "Yamas Restaurant Interieur in Clausthal-Zellerfeld"
+  },
+  "signature": {
+    "eyebrow": "Vom Grill",
+    "title": "Unsere Spezialitäten",
+    "subtitle": "Gerichte, die Geschichten erzählen — mit Dampf, Duft und mediterraner Seele",
+    "badge": "Signature",
+    "dishes": {
+      "gyros": {
+        "title": "Gyros vom Grill",
+        "description": "Saftig, würzig, klassisch griechisch",
+        "alt": "Premium Gyros vom Grill bei Yamas"
+      },
+      "souvlaki": {
+        "title": "Souvlaki Spezialitäten",
+        "description": "Vom Holzkohlegrill, perfekt gegart",
+        "alt": "Premium Souvlaki bei Yamas"
+      },
+      "salad": {
+        "title": "Frische Salate",
+        "description": "Knackig, elegant, hausgemacht",
+        "alt": "Frische griechische Salate bei Yamas"
+      },
+      "pita": {
+        "title": "Pita & Street Classics",
+        "description": "Authentisch, warm, unvergesslich",
+        "alt": "Pita Spezialitäten bei Yamas"
+      }
+    }
+  },
+  "menuSection": {
+    "eyebrow": "Kulinarik",
+    "title": "Speisekarte",
+    "subtitle": "Jedes Gericht mit Sorgfalt komponiert — entdecke unsere griechische Vielfalt",
+    "searchLabel": "Gerichte suchen",
+    "searchPlaceholder": "Gericht suchen…",
+    "tabAll": "Alle",
+    "resultsOne": "{count} Gericht gefunden",
+    "resultsMany": "{count} Gerichte gefunden",
+    "noResults": "Keine Gerichte gefunden.",
+    "noResultsHint": "Keine Gerichte gefunden. Versuche einen anderen Suchbegriff.",
+    "bestseller": "Bestseller",
+    "halal": "Halal"
+  },
+  "halal": {
+    "eyebrow": "Vertrauen & Qualität",
+    "title": "Alle Hähnchengerichte sind {emphasis}.",
+    "emphasis": "halal",
+    "body": "Bei Yamas legen wir Wert auf Transparenz und Qualität. Unsere Hähnchengerichte werden nach halal Standards zubereitet — frisch, vertrauenswürdig und mit mediterraner Sorgfalt serviert.",
+    "badge": "Halal Hähnchen · Frisch vom Grill",
+    "cta": "Halal Gerichte entdecken"
+  },
+  "breakfast": {
+    "eyebrow": "Morgens bei Yamas",
+    "title": "Frühstück",
+    "titleAccent": "bei Yamas",
+    "hours": "Täglich von 08:00 bis 10:00 Uhr",
+    "body": "Starte deinen Tag mediterran — mit frischen Zutaten, warmem Brot und dem typischen Yamas-Gastgebergefühl. Ein ruhiger Moment vor dem Tag in Clausthal.",
+    "cta": "Frühstück anfragen",
+    "mood": "Morgenstimmung",
+    "imageAlt": "Frühstück bei Yamas"
+  },
+  "contact": {
+    "eyebrow": "Besuch",
+    "title": "Hunger auf griechisch?",
+    "subtitle": "Ruf uns an, reserviere telefonisch oder finde uns in Clausthal-Zellerfeld",
+    "ctaTitle": "Jetzt telefonisch bestellen",
+    "ctaBody": "Frische griechische Küche — zum Mitnehmen, zur Lieferung oder vor Ort.",
+    "order": "Jetzt telefonisch bestellen",
+    "route": "Route planen",
+    "address": "Adresse",
+    "phone": "Telefon",
+    "hours": "Öffnungszeiten",
+    "reservation": "Reservierung",
+    "mapsTitle": "Yamas Standort auf Google Maps"
+  },
+  "footer": {
+    "address": "Adresse",
+    "hours": "Öffnungszeiten",
+    "legal": "Rechtliches",
+    "impressum": "Impressum",
+    "privacy": "Datenschutz",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "site": {
+    "name": "Yamas",
+    "subtitle": "Greek Restaurant",
+    "tagline": "Dein griechisches Restaurant in Clausthal-Zellerfeld",
+    "hours": "Montag – Sonntag: 11:30 – 22:30",
+    "breakfastHours": "Frühstück: 08:00 – 10:00",
+    "reservationNote": "Reservierungen werden nur telefonisch angenommen. Bitte keine Tischreservierungen per E-Mail.",
+    "addressStreet": "Adolph-Roemer-Straße 24",
+    "addressCity": "38678 Clausthal-Zellerfeld"
+  },
+  "mobileCta": {
+    "call": "Anrufen",
+    "route": "Route",
+    "menu": "Speisekarte",
+    "callAria": "Jetzt anrufen",
+    "routeAria": "Route planen",
+    "menuAria": "Zur Speisekarte"
+  },
+  "lang": {
+    "switch": "Sprache wählen",
+    "de": "DE",
+    "en": "EN",
+    "el": "EL"
+  },
+  "legal": {
+    "impressumTitle": "Impressum",
+    "privacyTitle": "Datenschutz",
+    "legalEyebrow": "Rechtliches",
+    "backHome": "← Zurück zur Startseite",
+    "tmg": "Angaben gemäß § 5 TMG",
+    "contactLabel": "Kontakt",
+    "phoneLabel": "Telefon"
+  },
+  "privacy": {
+    "intro": "Der Schutz Ihrer persönlichen Daten ist uns ein wichtiges Anliegen. Diese Website dient der Information über unser Restaurant Yamas in Clausthal-Zellerfeld.",
+    "controllerTitle": "Verantwortliche Stelle",
+    "controllerBody": "Yamas\nAdolph-Roemer-Straße 24\n38678 Clausthal-Zellerfeld",
+    "collectionTitle": "Datenerfassung auf dieser Website",
+    "collectionBody": "Beim Besuch dieser Website werden durch den Hosting-Anbieter technisch notwendige Server-Logfiles erfasst (z. B. IP-Adresse, Browsertyp, Uhrzeit des Zugriffs). Eine darüber hinausgehende Erhebung personenbezogener Daten erfolgt nicht, sofern Sie uns nicht aktiv kontaktieren (z. B. per Telefon).",
+    "externalTitle": "Externe Dienste",
+    "externalBody": "Auf unserer Kontaktseite kann eine eingebettete Google-Maps-Karte angezeigt werden. Beim Laden der Karte können Daten an Google übermittelt werden.",
+    "rightsTitle": "Ihre Rechte",
+    "rightsBody": "Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und Widerspruch gemäß der geltenden Datenschutzgesetze."
+  }
+}

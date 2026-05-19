@@ -13,7 +13,7 @@ npm run dev
 
 | Path | Purpose |
 |------|---------|
-| `videos/yamas-hero.mp4` | Full-screen cinematic hero video |
+| `videos/yamas-hero.mp4` | Full-screen cinematic hero video (renamed from `yamas hero.mp4`) |
 | `images/yamas-hero-poster.jpg` | Hero fallback poster |
 | `images/gyros-premium.jpg` | Signature dish |
 | `images/souvlaki-premium.jpg` | Signature dish |

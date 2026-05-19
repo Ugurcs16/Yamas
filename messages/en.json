@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "title": "Yamas Clausthal-Zellerfeld | Greek Restaurant",
+    "description": "Fresh Greek cuisine in Clausthal-Zellerfeld. Gyros, souvlaki, pita, salads, burgers, pasta and halal chicken dishes.",
+    "ogAlt": "Yamas – Greek restaurant in Clausthal-Zellerfeld",
+    "keywords": "Yamas,Greek Restaurant,Clausthal-Zellerfeld,Gyros,Souvlaki,Halal"
+  },
+  "nav": {
+    "start": "Home",
+    "about": "About",
+    "menu": "Menu",
+    "breakfast": "Breakfast",
+    "contact": "Contact",
+    "call": "Call",
+    "callAria": "Call now",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "mainNav": "Main navigation"
+  },
+  "hero": {
+    "ariaLabel": "Welcome to Yamas",
+    "badge": "Yamas Clausthal-Zellerfeld",
+    "titleLine1": "Greek",
+    "titleLine2": "pleasure.",
+    "titleLine3": "Elegantly served.",
+    "subtitle": "Yamas brings Mediterranean warmth, fresh cooking and authentic Greek specialties to Clausthal-Zellerfeld.",
+    "ctaCall": "Call now",
+    "ctaMenu": "Explore menu",
+    "trustAria": "Our highlights",
+    "grillLabel": "From the grill",
+    "grillTitle": "Gyros & Souvlaki",
+    "souvlakiLabel": "Souvlaki",
+    "hospitality": "Hospitality",
+    "openLabel": "Open",
+    "halalNote": "All chicken dishes are halal.",
+    "discover": "Discover",
+    "mobileOpen": "Open today",
+    "mobileHalal": "Halal chicken"
+  },
+  "trust": {
+    "daily": "Open daily",
+    "halal": "Halal chicken dishes",
+    "fresh": "Freshly prepared",
+    "takeaway": "Takeaway & delivery"
+  },
+  "intro": {
+    "eyebrow": "About Yamas",
+    "quote": "In the heart of Clausthal, Greek cuisine awaits you — {fresh} and prepared with care.",
+    "fresh": "fresh, authentic",
+    "body": "Whether gyros, souvlaki, crisp salads, chicken dishes, pasta, burgers or schnitzel — at Yamas everyone finds something to enjoy. Family-run, warm-hearted and dedicated to making every visit memorable.",
+    "reserve": "Reserve a table",
+    "menu": "Menu",
+    "atmosphere": "Atmosphere",
+    "atmosphereTitle": "Warm. Elegant. Greek.",
+    "pitaFresh": "Fresh pita",
+    "interiorAlt": "Yamas restaurant interior in Clausthal-Zellerfeld"
+  },
+  "signature": {
+    "eyebrow": "From the grill",
+    "title": "Our specialties",
+    "subtitle": "Dishes that tell stories — with steam, aroma and Mediterranean soul",
+    "badge": "Signature",
+    "dishes": {
+      "gyros": {
+        "title": "Gyros from the grill",
+        "description": "Juicy, seasoned, classically Greek",
+        "alt": "Premium gyros from the grill at Yamas"
+      },
+      "souvlaki": {
+        "title": "Souvlaki specialties",
+        "description": "From the charcoal grill, perfectly cooked",
+        "alt": "Premium souvlaki at Yamas"
+      },
+      "salad": {
+        "title": "Fresh salads",
+        "description": "Crisp, elegant, homemade",
+        "alt": "Fresh Greek salads at Yamas"
+      },
+      "pita": {
+        "title": "Pita & street classics",
+        "description": "Authentic, warm, unforgettable",
+        "alt": "Pita specialties at Yamas"
+      }
+    }
+  },
+  "menuSection": {
+    "eyebrow": "Culinary",
+    "title": "Menu",
+    "subtitle": "Every dish composed with care — discover our Greek variety",
+    "searchLabel": "Search dishes",
+    "searchPlaceholder": "Search dish…",
+    "tabAll": "All",
+    "resultsOne": "{count} dish found",
+    "resultsMany": "{count} dishes found",
+    "noResults": "No dishes found.",
+    "noResultsHint": "No dishes found. Try a different search term.",
+    "bestseller": "Bestseller",
+    "halal": "Halal"
+  },
+  "halal": {
+    "eyebrow": "Trust & quality",
+    "title": "All chicken dishes are {emphasis}.",
+    "emphasis": "halal",
+    "body": "At Yamas we value transparency and quality. Our chicken dishes are prepared to halal standards — served fresh, trustworthy and with Mediterranean care.",
+    "badge": "Halal chicken · Fresh from the grill",
+    "cta": "Discover halal dishes"
+  },
+  "breakfast": {
+    "eyebrow": "Mornings at Yamas",
+    "title": "Breakfast",
+    "titleAccent": "at Yamas",
+    "hours": "Daily from 08:00 to 10:00",
+    "body": "Start your day the Mediterranean way — with fresh ingredients, warm bread and the signature Yamas hospitality. A quiet moment before the day in Clausthal.",
+    "cta": "Inquire about breakfast",
+    "mood": "Morning mood",
+    "imageAlt": "Breakfast at Yamas"
+  },
+  "contact": {
+    "eyebrow": "Visit",
+    "title": "Craving Greek?",
+    "subtitle": "Call us, reserve by phone or find us in Clausthal-Zellerfeld",
+    "ctaTitle": "Order by phone now",
+    "ctaBody": "Fresh Greek cuisine — takeaway, delivery or dine in.",
+    "order": "Order by phone now",
+    "route": "Get directions",
+    "address": "Address",
+    "phone": "Phone",
+    "hours": "Opening hours",
+    "reservation": "Reservations",
+    "mapsTitle": "Yamas location on Google Maps"
+  },
+  "footer": {
+    "address": "Address",
+    "hours": "Opening hours",
+    "legal": "Legal",
+    "impressum": "Legal notice",
+    "privacy": "Privacy",
+    "rights": "All rights reserved."
+  },
+  "site": {
+    "name": "Yamas",
+    "subtitle": "Greek Restaurant",
+    "tagline": "Your Greek restaurant in Clausthal-Zellerfeld",
+    "hours": "Monday – Sunday: 11:30 – 22:30",
+    "breakfastHours": "Breakfast: 08:00 – 10:00",
+    "reservationNote": "Reservations are accepted by phone only. Please do not request table reservations by email.",
+    "addressStreet": "Adolph-Roemer-Straße 24",
+    "addressCity": "38678 Clausthal-Zellerfeld"
+  },
+  "mobileCta": {
+    "call": "Call",
+    "route": "Route",
+    "menu": "Menu",
+    "callAria": "Call now",
+    "routeAria": "Get directions",
+    "menuAria": "View menu"
+  },
+  "lang": {
+    "switch": "Choose language",
+    "de": "DE",
+    "en": "EN",
+    "el": "EL"
+  },
+  "legal": {
+    "impressumTitle": "Legal notice",
+    "privacyTitle": "Privacy policy",
+    "legalEyebrow": "Legal",
+    "backHome": "← Back to home",
+    "tmg": "Information pursuant to § 5 TMG",
+    "contactLabel": "Contact",
+    "phoneLabel": "Phone"
+  },
+  "privacy": {
+    "intro": "Protecting your personal data is important to us. This website provides information about our restaurant Yamas in Clausthal-Zellerfeld.",
+    "controllerTitle": "Data controller",
+    "controllerBody": "Yamas\nAdolph-Roemer-Straße 24\n38678 Clausthal-Zellerfeld",
+    "collectionTitle": "Data collection on this website",
+    "collectionBody": "When you visit this website, technically necessary server log files are collected by the hosting provider (e.g. IP address, browser type, time of access). No further collection of personal data takes place unless you actively contact us (e.g. by phone).",
+    "externalTitle": "External services",
+    "externalBody": "Our contact page may display an embedded Google Maps map. When the map loads, data may be transmitted to Google.",
+    "rightsTitle": "Your rights",
+    "rightsBody": "You have the right to information, rectification, deletion, restriction of processing and objection under applicable data protection laws."
+  }
+}

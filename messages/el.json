@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "title": "Yamas Clausthal-Zellerfeld | Ελληνικό Εστιατόριο",
+    "description": "Φρέσκια ελληνική κουζίνα στο Clausthal-Zellerfeld. Γύρος, σουβλάκι, πίτα, σαλάτες, μπέργκερ, ζυμαρικά και halal πιάτα με κοτόπουλο.",
+    "ogAlt": "Yamas – Ελληνικό εστιατόριο στο Clausthal-Zellerfeld",
+    "keywords": "Yamas,Ελληνικό Εστιατόριο,Clausthal-Zellerfeld,Γύρος,Σουβλάκι,Halal"
+  },
+  "nav": {
+    "start": "Αρχική",
+    "about": "Σχετικά",
+    "menu": "Μενού",
+    "breakfast": "Πρωινό",
+    "contact": "Επικοινωνία",
+    "call": "Κλήση",
+    "callAria": "Καλέστε τώρα",
+    "menuOpen": "Άνοιγμα μενού",
+    "menuClose": "Κλείσιμο μενού",
+    "mainNav": "Κύρια πλοήγηση"
+  },
+  "hero": {
+    "ariaLabel": "Καλώς ήρθατε στο Yamas",
+    "badge": "Yamas Clausthal-Zellerfeld",
+    "titleLine1": "Ελληνική",
+    "titleLine2": "απόλαυση.",
+    "titleLine3": "Με κομψότητα.",
+    "subtitle": "Το Yamas φέρνει μεσογειακή ζεστασιά, φρέσκια κουζίνα και αυθεντικές ελληνικές σπεσιαλιτέ στο Clausthal-Zellerfeld.",
+    "ctaCall": "Καλέστε τώρα",
+    "ctaMenu": "Ανακαλύψτε το μενού",
+    "trustAria": "Τα πλεονεκτήματά μας",
+    "grillLabel": "Από τη σχάρα",
+    "grillTitle": "Γύρος & Σουβλάκι",
+    "souvlakiLabel": "Σουβλάκι",
+    "hospitality": "Φιλοξενία",
+    "openLabel": "Ανοιχτά",
+    "halalNote": "Όλα τα πιάτα με κοτόπουλο είναι halal.",
+    "discover": "Ανακαλύψτε",
+    "mobileOpen": "Ανοιχτά σήμερα",
+    "mobileHalal": "Halal κοτόπουλο"
+  },
+  "trust": {
+    "daily": "Ανοιχτά καθημερινά",
+    "halal": "Halal πιάτα με κοτόπουλο",
+    "fresh": "Φρεσκομαγειρεμένα",
+    "takeaway": "Παράλαβη & delivery"
+  },
+  "intro": {
+    "eyebrow": "Σχετικά με το Yamas",
+    "quote": "Στην καρδιά του Clausthal σας περιμένει ελληνική κουζίνα — {fresh} και με πολλή αγάπη.",
+    "fresh": "φρέσκια, αυθεντική",
+    "body": "Είτε γύρος, σουβλάκι, τραγανές σαλάτες, πιάτα με κοτόπουλο, ζυμαρικά, μπέργκερ ή σνίτσελ — στο Yamas βρίσκει καθένας κάτι που του ταιριάζει. Οικογενειακή επιχείρηση, ζεστή φιλοξενία και αφοσίωση σε αξέχαστες επισκέψεις.",
+    "reserve": "Κράτηση τραπεζιού",
+    "menu": "Μενού",
+    "atmosphere": "Ατμόσφαιρα",
+    "atmosphereTitle": "Ζεστό. Κομψό. Ελληνικό.",
+    "pitaFresh": "Φρέσκια πίτα",
+    "interiorAlt": "Εσωτερικό εστιατορίου Yamas στο Clausthal-Zellerfeld"
+  },
+  "signature": {
+    "eyebrow": "Από τη σχάρα",
+    "title": "Οι σπεσιαλιτέ μας",
+    "subtitle": "Πιάτα που αφηγούνται ιστορίες — με ατμό, άρωμα και μεσογειακή ψυχή",
+    "badge": "Signature",
+    "dishes": {
+      "gyros": {
+        "title": "Γύρος από τη σχάρα",
+        "description": "Ζουμερός, αρωματικός, κλασικά ελληνικός",
+        "alt": "Premium γύρος από τη σχάρα στο Yamas"
+      },
+      "souvlaki": {
+        "title": "Σπεσιαλιτέ σουβλάκι",
+        "description": "Από κάρβουνο, τέλεια ψημένο",
+        "alt": "Premium σουβλάκι στο Yamas"
+      },
+      "salad": {
+        "title": "Φρέσκες σαλάτες",
+        "description": "Τραγανές, κομψές, σπιτικές",
+        "alt": "Φρέσκες ελληνικές σαλάτες στο Yamas"
+      },
+      "pita": {
+        "title": "Πίτα & street classics",
+        "description": "Αυθεντικά, ζεστά, αξέχαστα",
+        "alt": "Σπεσιαλιτέ πίτας στο Yamas"
+      }
+    }
+  },
+  "menuSection": {
+    "eyebrow": "Γαστρονομία",
+    "title": "Μενού",
+    "subtitle": "Κάθε πιάτο με προσοχή — ανακαλύψτε την ελληνική ποικιλία μας",
+    "searchLabel": "Αναζήτηση πιάτων",
+    "searchPlaceholder": "Αναζήτηση πιάτου…",
+    "tabAll": "Όλα",
+    "resultsOne": "Βρέθηκε {count} πιάτο",
+    "resultsMany": "Βρέθηκαν {count} πιάτα",
+    "noResults": "Δεν βρέθηκαν πιάτα.",
+    "noResultsHint": "Δεν βρέθηκαν πιάτα. Δοκιμάστε άλλον όρο.",
+    "bestseller": "Bestseller",
+    "halal": "Halal"
+  },
+  "halal": {
+    "eyebrow": "Εμπιστοσύνη & ποιότητα",
+    "title": "Όλα τα πιάτα με κοτόπουλο είναι {emphasis}.",
+    "emphasis": "halal",
+    "body": "Στο Yamas δίνουμε αξία στη διαφάνεια και την ποιότητα. Τα πιάτα με κοτόπουλο ετοιμάζονται κατά halal πρότυπα — φρέσκα, αξιόπιστα και με μεσογειακή φροντίδα.",
+    "badge": "Halal κοτόπουλο · Φρέσκο από τη σχάρα",
+    "cta": "Ανακαλύψτε halal πιάτα"
+  },
+  "breakfast": {
+    "eyebrow": "Το πρωί στο Yamas",
+    "title": "Πρωινό",
+    "titleAccent": "στο Yamas",
+    "hours": "Καθημερινά 08:00 – 10:00",
+    "body": "Ξεκινήστε τη μέρα μεσογειακά — με φρέσκα υλικά, ζεστό ψωμί και την τυπική φιλοξενία του Yamas. Μια ήσυχη στιγμή πριν τη μέρα στο Clausthal.",
+    "cta": "Ερώτηση για πρωινό",
+    "mood": "Πρωινή διάθεση",
+    "imageAlt": "Πρωινό στο Yamas"
+  },
+  "contact": {
+    "eyebrow": "Επίσκεψη",
+    "title": "Όρεξη για ελληνικά;",
+    "subtitle": "Καλέστε μας, κρατήστε τηλεφωνικά ή βρείτε μας στο Clausthal-Zellerfeld",
+    "ctaTitle": "Παραγγελία τηλεφωνικά",
+    "ctaBody": "Φρέσκια ελληνική κουζίνα — παράλαβη, delivery ή στο κατάστημα.",
+    "order": "Παραγγελία τηλεφωνικά",
+    "route": "Οδηγίες",
+    "address": "Διεύθυνση",
+    "phone": "Τηλέφωνο",
+    "hours": "Ωράριο",
+    "reservation": "Κράτηση",
+    "mapsTitle": "Τοποθεσία Yamas στο Google Maps"
+  },
+  "footer": {
+    "address": "Διεύθυνση",
+    "hours": "Ωράριο",
+    "legal": "Νομικά",
+    "impressum": "Impressum",
+    "privacy": "Απόρρητο",
+    "rights": "Όλα τα δικαιώματα διατηρούνται."
+  },
+  "site": {
+    "name": "Yamas",
+    "subtitle": "Greek Restaurant",
+    "tagline": "Το ελληνικό σας εστιατόριο στο Clausthal-Zellerfeld",
+    "hours": "Δευτέρα – Κυριακή: 11:30 – 22:30",
+    "breakfastHours": "Πρωινό: 08:00 – 10:00",
+    "reservationNote": "Οι κρατήσεις γίνονται μόνο τηλεφωνικά. Μην ζητάτε κράτηση τραπεζιού μέσω email.",
+    "addressStreet": "Adolph-Roemer-Straße 24",
+    "addressCity": "38678 Clausthal-Zellerfeld"
+  },
+  "mobileCta": {
+    "call": "Κλήση",
+    "route": "Οδηγίες",
+    "menu": "Μενού",
+    "callAria": "Καλέστε τώρα",
+    "routeAria": "Οδηγίες",
+    "menuAria": "Μενού"
+  },
+  "lang": {
+    "switch": "Επιλογή γλώσσας",
+    "de": "DE",
+    "en": "EN",
+    "el": "EL"
+  },
+  "legal": {
+    "impressumTitle": "Impressum",
+    "privacyTitle": "Πολιτική απορρήτου",
+    "legalEyebrow": "Νομικά",
+    "backHome": "← Επιστροφή στην αρχική",
+    "tmg": "Στοιχεία σύμφωνα με § 5 TMG",
+    "contactLabel": "Επικοινωνία",
+    "phoneLabel": "Τηλέφωνο"
+  },
+  "privacy": {
+    "intro": "Η προστασία των προσωπικών σας δεδομένων είναι σημαντική για εμάς. Αυτός ο ιστότοπος ενημερώνει για το εστιατόριο Yamas στο Clausthal-Zellerfeld.",
+    "controllerTitle": "Υπεύθυνος επεξεργασίας",
+    "controllerBody": "Yamas\nAdolph-Roemer-Straße 24\n38678 Clausthal-Zellerfeld",
+    "collectionTitle": "Συλλογή δεδομένων στον ιστότοπο",
+    "collectionBody": "Κατά την επίσκεψη συλλέγονται τεχνικά απαραίτητα αρχεία καταγραφής (π.χ. IP, πρόγραμμα περιήγησης, ώρα πρόσβασης). Δεν συλλέγονται περαιτέρω προσωπικά δεδομένα, εκτός αν επικοινωνήσετε ενεργά (π.χ. τηλεφωνικά).",
+    "externalTitle": "Εξωτερικές υπηρεσίες",
+    "externalBody": "Στη σελίδα επικοινωνίας μπορεί να εμφανίζεται ενσωματωμένος χάρτης Google Maps. Κατά τη φόρτωση δεδομένα μπορεί να αποστέλλονται στη Google.",
+    "rightsTitle": "Τα δικαιώματά σας",
+    "rightsBody": "Έχετε δικαίωμα ενημέρωσης, διόρθωσης, διαγραφής, περιορισμού επεξεργασίας και αντίρρησης σύμφωνα με την ισχύουσα νομοθεσία."
+  }
+}

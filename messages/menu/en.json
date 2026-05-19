@@ -1,0 +1,208 @@
+{
+  "categories": {
+    "vorspeisen": "Starters",
+    "salate": "Salads",
+    "pita": "Pita Specialties",
+    "fleisch": "Meat Specialties",
+    "teller-2": "Platters for 2",
+    "grill": "Grill Specialties",
+    "fast-food": "Fast Food",
+    "ueberbacken": "Baked Dishes | Skillet Dishes",
+    "pasta": "Pasta",
+    "burger": "Burgers",
+    "schnitzel": "Schnitzel",
+    "kinder": "Kids' Menu",
+    "beilagen": "Sides"
+  },
+  "items": {
+    "1": {
+      "name": "Tzatziki",
+      "description": "Yogurt with cucumber and fresh garlic"
+    },
+    "2": {
+      "name": "Tirokafteri",
+      "description": "Whipped feta cheese, spicy"
+    },
+    "3": {
+      "name": "Garlic Bread",
+      "description": "Six slices of bread with garlic"
+    },
+    "4": {
+      "name": "Saganaki",
+      "description": "Breaded feta cheese"
+    },
+    "5": {
+      "name": "Grilled Peppers",
+      "description": "Grilled peppers with garlic and tzatziki"
+    },
+    "6": {
+      "name": "Gyros Salad",
+      "description": "with pork, tomatoes, cucumber, peppers and mustard-honey dressing"
+    },
+    "7": {
+      "name": "Chicken Salad",
+      "description": "with tomatoes, cucumber, onions, mushrooms, corn, peppers, cashews, parmesan and mustard-honey dressing"
+    },
+    "8": {
+      "name": "Greek Village Salad",
+      "description": "with tomatoes, cucumber, onions, peppers, olives, peppers, feta and oil-vinegar dressing"
+    },
+    "9": {
+      "name": "Saganaki Salad",
+      "description": "with breaded feta, tomatoes, cucumber, baby spinach, cashews and mustard-honey dressing"
+    },
+    "10": {
+      "name": "Pita Gyros - Pork",
+      "description": "with fries, onions, tomatoes and tzatziki"
+    },
+    "11": {
+      "name": "Pita Gyros - Chicken",
+      "description": "with fries, onions, tomatoes and tzatziki"
+    },
+    "12": {
+      "name": "Pita Bifteki",
+      "description": "Beef bifteki with fries, onions, tomatoes and tzatziki"
+    },
+    "13": {
+      "name": "Pita Souvlaki - Pork",
+      "description": "with fries, onions, tomatoes and tzatziki"
+    },
+    "14": {
+      "name": "Pita Souvlaki - Chicken",
+      "description": "with fries, onions, tomatoes and tzatziki"
+    },
+    "15": {
+      "name": "Skepasti Pita with Gyros",
+      "description": "two pita breads with pork, gouda, fries, salad and tzatziki"
+    },
+    "16": {
+      "name": "Pork Gyros",
+      "description": "with salad, fries, onions and tzatziki"
+    },
+    "17": {
+      "name": "Chicken Gyros",
+      "description": "with salad, fries, onions and tzatziki"
+    },
+    "18": {
+      "name": "Pork Gyros with Calamari",
+      "description": "with salad, fries, onions and tzatziki"
+    },
+    "19": {
+      "name": "Bifteki",
+      "description": "three beef bifteki with salad, fries, onions and tzatziki"
+    },
+    "20": {
+      "name": "Souvlaki - Pork",
+      "description": "three pork skewers with salad, fries, onions and tzatziki"
+    },
+    "21": {
+      "name": "Souvlaki - Chicken",
+      "description": "three chicken skewers with salad, fries, onions and tzatziki"
+    },
+    "22": {
+      "name": "Pork Mix Platter",
+      "description": "pork gyros, 2x souvlaki, 2x bifteki, 2x pork schnitzel, fries and rice, salad and tzatziki"
+    },
+    "23": {
+      "name": "Chicken Mix Platter",
+      "description": "chicken gyros, 2x souvlaki, 2x chicken patties, chicken schnitzel, fries and rice, salad and tzatziki"
+    },
+    "24": {
+      "name": "Half Chicken",
+      "description": "with salad, fries or rice and sauce"
+    },
+    "25": {
+      "name": "Half Chicken",
+      "description": "Takeaway / Delivery"
+    },
+    "26": {
+      "name": "Chicken Wings",
+      "description": "6 chicken wings with fries and sauce"
+    },
+    "27": {
+      "name": "Chicken Nuggets",
+      "description": "8 chicken nuggets with fries and sauce"
+    },
+    "28": {
+      "name": "Cheat Meal",
+      "description": "fries topped with bacon and melted cheese"
+    },
+    "29": {
+      "name": "Ifaistio",
+      "description": "2 fried eggs with fries, bacon and gouda"
+    },
+    "30": {
+      "name": "Baked Gyros",
+      "description": "with pork or chicken, metaxa sauce, cheese, fries and salad"
+    },
+    "31": {
+      "name": "Baked Bifteki",
+      "description": "beef bifteki with metaxa sauce, cheese, fries and salad"
+    },
+    "32": {
+      "name": "Baked Souvlaki",
+      "description": "pork with metaxa sauce, cheese, fries and salad"
+    },
+    "33": {
+      "name": "Gyros Skillet",
+      "description": "pork with metaxa sauce, feta, fries and salad"
+    },
+    "34": {
+      "name": "Penne with Chicken",
+      "description": "penne with chicken breast and white wine or tomato sauce"
+    },
+    "35": {
+      "name": "Penne with Prawns",
+      "description": "with garlic, basil, white wine or tomato sauce"
+    },
+    "36": {
+      "name": "Athens Burger",
+      "description": "pork or chicken with cheese, tomatoes, salad, onions, fries and sauce"
+    },
+    "37": {
+      "name": "Acropolis",
+      "description": "beef with cheese, tomatoes, salad, onions, fries and sauce"
+    },
+    "38": {
+      "name": "Dimi Burger",
+      "description": "chicken patty with cheese, tomatoes, salad, onions, fries and sauce"
+    },
+    "39": {
+      "name": "Yamas Hot Smash Burger",
+      "description": "2 beef patties with pickles, fried egg, chili cheese and fries"
+    },
+    "40": {
+      "name": "Pork Schnitzel",
+      "description": "with salad, fries and sauce of your choice"
+    },
+    "41": {
+      "name": "Chicken Schnitzel",
+      "description": "with salad, fries and sauce of your choice"
+    },
+    "42": {
+      "name": "Hello Kitty",
+      "description": "gyros with fries"
+    },
+    "43": {
+      "name": "One Piece",
+      "description": "schnitzel with fries"
+    },
+    "44": {
+      "name": "Spong Bob",
+      "description": "souvlaki with fries"
+    },
+    "45": {
+      "name": "Fries",
+      "description": ""
+    },
+    "46": {
+      "name": "Rice",
+      "description": ""
+    },
+    "47": {
+      "name": "Side Salad",
+      "description": ""
+    }
+  },
+  "takeawayLabel": "Takeaway / Delivery"
+}

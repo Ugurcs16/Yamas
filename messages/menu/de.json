@@ -1,0 +1,208 @@
+{
+  "categories": {
+    "vorspeisen": "Vorspeisen",
+    "salate": "Salate",
+    "pita": "Pita-Spezialitäten",
+    "fleisch": "Fleischspezialitäten",
+    "teller-2": "Teller für 2 Personen",
+    "grill": "Grill Spezialitäten",
+    "fast-food": "Fast Food",
+    "ueberbacken": "Überbackenes | Pfannengerichte",
+    "pasta": "Pasta",
+    "burger": "Burger",
+    "schnitzel": "Schnitzel",
+    "kinder": "Kinderteller",
+    "beilagen": "Beilagen"
+  },
+  "items": {
+    "1": {
+      "name": "Zaziki",
+      "description": "Joghurt mit Gurken und frischem Knoblauch"
+    },
+    "2": {
+      "name": "Tirokafteri",
+      "description": "Schafskäse geschlagen, scharf"
+    },
+    "3": {
+      "name": "Knoblauchbrot",
+      "description": "Sechs Scheiben Brot mit Knoblauch"
+    },
+    "4": {
+      "name": "Saganaki",
+      "description": "Panierter Fetakäse"
+    },
+    "5": {
+      "name": "Peperoni",
+      "description": "Gegrillte Peperoni mit Knoblauch und Zaziki"
+    },
+    "6": {
+      "name": "Gyros Salat",
+      "description": "mit Schweinefleisch, Tomaten, Gurken, Paprika und Senf-Honig-Dressing"
+    },
+    "7": {
+      "name": "Hähnchen Salat",
+      "description": "mit Tomaten, Gurken, Zwiebeln, Champignons, Mais, Paprika, Cashewkernen, Parmesan und Senf-Honig-Dressing"
+    },
+    "8": {
+      "name": "Bauernsalat",
+      "description": "mit Tomaten, Gurken, Zwiebeln, Paprika, Oliven, Peperoni, Fetakäse und Öl-Essig-Dressing"
+    },
+    "9": {
+      "name": "Saganaki Salat",
+      "description": "mit paniertem Fetakäse, Tomaten, Gurken, Babyspinat, Cashewkernen und Senf-Honig-Dressing"
+    },
+    "10": {
+      "name": "Pita Gyros - Schwein",
+      "description": "mit Pommes, Zwiebeln, Tomaten und Zaziki"
+    },
+    "11": {
+      "name": "Pita Gyros - Hähnchen",
+      "description": "mit Pommes, Zwiebeln, Tomaten und Zaziki"
+    },
+    "12": {
+      "name": "Pita Bifteki",
+      "description": "Bifteki aus Rindfleisch, mit Pommes, Zwiebeln, Tomaten und Zaziki"
+    },
+    "13": {
+      "name": "Pita Souvlaki - Schwein",
+      "description": "mit Pommes, Zwiebeln, Tomaten und Zaziki"
+    },
+    "14": {
+      "name": "Pita Souvlaki - Hähnchen",
+      "description": "mit Pommes, Zwiebeln, Tomaten und Zaziki"
+    },
+    "15": {
+      "name": "Skepasti Pita mit Gyros",
+      "description": "zwei Pita-Brote, mit Schweinefleisch, Gouda, Pommes, Salat und Zaziki"
+    },
+    "16": {
+      "name": "Gyros vom Schwein",
+      "description": "mit Salat, Pommes, Zwiebeln und Zaziki"
+    },
+    "17": {
+      "name": "Hähnchen Gyros",
+      "description": "mit Salat, Pommes, Zwiebeln und Zaziki"
+    },
+    "18": {
+      "name": "Gyros vom Schwein mit Kalamaris",
+      "description": "mit Salat, Pommes, Zwiebeln und Zaziki"
+    },
+    "19": {
+      "name": "Bifteki",
+      "description": "drei Bifteki aus Rindfleisch, mit Salat, Pommes, Zwiebeln und Zaziki"
+    },
+    "20": {
+      "name": "Souvlaki - Schwein",
+      "description": "drei Schweinefleischspieße, mit Salat, Pommes, Zwiebeln und Zaziki"
+    },
+    "21": {
+      "name": "Souvlaki - Hähnchen",
+      "description": "drei Hähnchenfleischspieße, mit Salat, Pommes, Zwiebeln und Zaziki"
+    },
+    "22": {
+      "name": "Schwein Mix Teller",
+      "description": "Gyros vom Schwein, 2x Souvlaki, 2x Bifteki, 2x Schweineschnitzel, Pommes und Reis, Salat und Zaziki"
+    },
+    "23": {
+      "name": "Hähnchen Mix Teller",
+      "description": "Hähnchen-Gyros, 2x Souvlaki, 2x Hähnchenhacksteak, Hähnchenschnitzel, Pommes und Reis, Salat und Zaziki"
+    },
+    "24": {
+      "name": "Halbes Hähnchen",
+      "description": "mit Salat, Pommes oder Reis und Soße"
+    },
+    "25": {
+      "name": "Halbes Hähnchen",
+      "description": "Mitnehmen / Liefern"
+    },
+    "26": {
+      "name": "Chicken Wings",
+      "description": "6x Chicken Wings mit Pommes und Soße"
+    },
+    "27": {
+      "name": "Chicken Nuggets",
+      "description": "8x Chicken Nuggets mit Pommes und Soße"
+    },
+    "28": {
+      "name": "Cheat Meal",
+      "description": "Pommes mit Bacon und Käse überbacken"
+    },
+    "29": {
+      "name": "Ifaistio",
+      "description": "2x Spiegeleier mit Pommes, Bacon und Gouda"
+    },
+    "30": {
+      "name": "Gyros überbacken",
+      "description": "mit Schweine- oder Hähnchenfleisch, mit Metaxasoße, Käse, Pommes und Salat"
+    },
+    "31": {
+      "name": "Bifteki überbacken",
+      "description": "Bifteki aus Rindfleisch, mit Metaxasoße, Käse, Pommes und Salat"
+    },
+    "32": {
+      "name": "Souvlaki überbacken",
+      "description": "aus Schweinefleisch, mit Metaxasoße, Käse, Pommes und Salat"
+    },
+    "33": {
+      "name": "Gyrospfanne",
+      "description": "Schweinefleisch, mit Metaxasoße, Fetakäse, Pommes und Salat"
+    },
+    "34": {
+      "name": "Penne mit Hähnchen",
+      "description": "Penne mit Hähnchenbrust und Weißwein- oder Tomatensoße"
+    },
+    "35": {
+      "name": "Penne mit Garnelen",
+      "description": "mit Knoblauch, Basilikum, Weißwein- oder Tomatensoße"
+    },
+    "36": {
+      "name": "Athen Burger",
+      "description": "Schweine- oder Hähnchenfleisch mit Käse, Tomaten, Salat, Zwiebeln, Pommes und Soße"
+    },
+    "37": {
+      "name": "Akropoli",
+      "description": "Rindfleisch mit Käse, Tomaten, Salat, Zwiebeln, Pommes und Soße"
+    },
+    "38": {
+      "name": "Dimi Burger",
+      "description": "Hähnchen-Hacksteak mit Käse, Tomaten, Salat, Zwiebeln, Pommes und Soße"
+    },
+    "39": {
+      "name": "Yamas Hot Smash Burger",
+      "description": "2x Rindfleischpatti mit sauren Gurken, Spiegelei, Chili-Cheese und Pommes"
+    },
+    "40": {
+      "name": "Schweineschnitzel",
+      "description": "mit Salat, Pommes und Soße nach eigener Wahl"
+    },
+    "41": {
+      "name": "Hähnchenschnitzel",
+      "description": "mit Salat, Pommes und Soße nach eigener Wahl"
+    },
+    "42": {
+      "name": "Hello Kitty",
+      "description": "Gyros mit Pommes"
+    },
+    "43": {
+      "name": "One Piece",
+      "description": "Schnitzel mit Pommes"
+    },
+    "44": {
+      "name": "Spong Bob",
+      "description": "Souvlaki mit Pommes"
+    },
+    "45": {
+      "name": "Pommes",
+      "description": ""
+    },
+    "46": {
+      "name": "Reis",
+      "description": ""
+    },
+    "47": {
+      "name": "Beilagensalat",
+      "description": ""
+    }
+  },
+  "takeawayLabel": "Mitnehmen / Liefern"
+}
