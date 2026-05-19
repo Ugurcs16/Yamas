@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply text-ivory antialiased;
+    background-color: #0a0c0a;
+    background-image: radial-gradient(
+        ellipse 120% 90% at 50% -10%,
+        rgba(201, 164, 92, 0.09),
+        transparent 55%
+      ),
+      radial-gradient(
+        ellipse 60% 40% at 90% 60%,
+        rgba(111, 125, 69, 0.05),
+        transparent 50%
+      ),
+      linear-gradient(180deg, #0f0e0c 0%, #0a0c0a 50%, #080a08 100%);
+    background-attachment: fixed;
+  }
+
+  ::selection {
+    @apply bg-champagne/35 text-ivory-warm;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-ivory/[0.04] backdrop-blur-2xl border border-ivory/[0.1] shadow-glass;
+  }
+
+  .glass-panel-gold {
+    @apply bg-gradient-to-br from-ivory/[0.07] to-ivory/[0.02] backdrop-blur-2xl border border-champagne/25 shadow-glass;
+  }
+
+  .glass-outline {
+    @apply bg-ivory/[0.03] backdrop-blur-xl border border-ivory/20 shadow-glass;
+  }
+
+  .luxury-section {
+    @apply relative overflow-hidden;
+    background: linear-gradient(
+      165deg,
+      #0a0c0a 0%,
+      #12100e 40%,
+      #0f1210 100%
+    );
+  }
+
+  .luxury-section::before {
+    content: "";
+    @apply absolute inset-0 bg-mediterranean-pattern opacity-[0.045] pointer-events-none;
+  }
+
+  .luxury-section::after {
+    content: "";
+    @apply absolute inset-0 bg-stone-texture opacity-[0.03] mix-blend-soft-light pointer-events-none;
+  }
+
+  .gold-line {
+    @apply h-px bg-gradient-to-r from-transparent via-champagne/80 to-transparent;
+  }
+
+  .gold-line-wide {
+    @apply h-px w-full max-w-md bg-gradient-to-r from-champagne/60 via-champagne to-champagne/60;
+  }
+
+  .text-gradient-gold {
+    @apply bg-gradient-to-br from-ivory-warm via-champagne-light to-champagne bg-clip-text text-transparent;
+  }
+
+  .btn-gold-gradient {
+    background: linear-gradient(135deg, #e2c88a 0%, #c9a45c 42%, #a88642 100%);
+    box-shadow:
+      0 4px 24px rgba(201, 164, 92, 0.35),
+      inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  }
+
+  .btn-gold-gradient:hover {
+    box-shadow:
+      0 8px 40px rgba(201, 164, 92, 0.45),
+      inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  }
+
+  .editorial-headline {
+    @apply font-display font-normal tracking-[-0.02em] leading-[0.95];
+  }
+
+  .food-card-glow {
+    box-shadow:
+      0 32px 64px -16px rgba(0, 0, 0, 0.75),
+      0 0 80px rgba(201, 164, 92, 0.08);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
