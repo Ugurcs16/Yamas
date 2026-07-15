@@ -5,6 +5,8 @@ export const SITE = {
   name: "Yamas",
   phone: "+49 172 4011998",
   phoneHref: "tel:+491724011998",
+  addressStreet: "Adolph-Roemer-Straße 24",
+  addressCity: "38678 Clausthal-Zellerfeld",
   mapsUrl:
     "https://www.google.com/maps/search/?api=1&query=Adolph-Roemer-Straße+24,+38678+Clausthal-Zellerfeld",
   mapsEmbed:
