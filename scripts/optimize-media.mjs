@@ -187,15 +187,14 @@ function optimizeVideos() {
   }
 
   const desktopOut = path.join(VIDEOS_DIR, "yamas-hero.mp4");
-  const mobileOut = path.join(VIDEOS_DIR, "yamas-hero-mobile.mp4");
   const source = fs.existsSync(backup) ? backup : input;
 
-  encodeVideo(source, mobileOut, { width: 720, crf: 28, label: "mobile 720p" });
-  encodeVideo(source, desktopOut, { width: 1280, crf: 26, label: "desktop 1280p" });
+  encodeVideo(source, desktopOut, { width: 1280, crf: 26, label: "web 1280p" });
 
+  // Single shared web source for desktop and mobile (no separate mobile file)
   return {
     desktop: "/videos/yamas-hero.mp4",
-    mobile: "/videos/yamas-hero-mobile.mp4",
+    mobile: "/videos/yamas-hero.mp4",
   };
 }
 

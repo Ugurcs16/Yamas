@@ -47,6 +47,6 @@ export const MEDIA_MANIFEST = {
   },
   "videos": {
     "desktop": "/videos/yamas-hero.mp4",
-    "mobile": "/videos/yamas-hero-mobile.mp4"
+    "mobile": "/videos/yamas-hero.mp4"
   }
 } as const;
