@@ -36,17 +36,17 @@ export const MEDIA_MANIFEST = {
     }
   },
   "blur": {
-    "heroPoster": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAQCdASoQAAkABIByJQBOgBodybFYAP7vJnieZ9srMz3p1CeKwlPvMzyRK3lQretUVeWY6tqHV+B7QAA=",
-    "gyros": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAQAgCdASoQABAABIByJbACdAYvW2FDVCWAAP1S0H33u+BnVqwFsm8jofru5HV/sJ7Y/Q93EUSk66n5NNPF5M4Lu2qFzR1WaQagpAK6cJrdhz9sI1QNEcusjX1XQ9tChjej8AjB7YhaVqOogAA=",
-    "souvlaki": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADwAQCdASoQABAABIByJaACdAYvNF9XMAAA/pQw8RujylFtZjWgc2H84RZcsUsza3ivpLKnubZB3xZVGWKk1NFhEaZA/ffbPUSN9pfSgGk0ur26Tehm3R7PHhuOpPvYUb7I456Y/sRh9F9nGyNaSAAA",
+    "heroPoster": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACQAQCdASoQAAkABIByJQBOgBm6MEAA/u8mgD0RH2r5Mjs9qlsOWj/17zhN+8rcEtPmFpBNyif/FUjKIwwAAA==",
+    "gyros": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAAAwAgCdASoQABAABIByJbACdAYvC2G4sJp0AAD9UtB997kRZxP4BFP/m7lE7Opiv7CYdP0PDxFEhrNZ+TRzxc/V6FBVxbzB1dcQOQFdImzrjEu3vQHU20g01D3wMJh0v5vI8A5D6q2myVmlVAAAAA==",
+    "souvlaki": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADwAQCdASoQABAABIByJaACdAYubF9V6AAA/pQw8RqoS9jCIpKVwg5LWfgwcZXUbJbfwyj/d8x9lsAqCt0FfK51T4Ia9EunKR40NcYvkWElpvdt6rpGOu4mtq8FeIOgtOmyx5feu65P7FmIn0PZWAAA",
     "salad": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAAAQAgCdASoQABAABIByJZACdAYstVi1QFAAAPkRGHTeGXIayycVGzqKZSaIR+V6oK55+PA5a1Y+PKaH6VfOqLT9MdhBviZ0B9iWIeVzecePvlouuG6w0nB6Rog6G71vIeKRKdPd5OgWGIewtyQPQAAA",
     "pita": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAADwAQCdASoQABAABIByJbACdAYwmuJTugAA/kv9t9dxteAIKYYw1sZnebVYjV13pRPtO78q2+pjYxULaRS/5Rw3ATsvLHPnbGrjvaRWkh0Zqch4blJFHNiaP3kHMZuWj90NHRPxulmAAA==",
-    "interior": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAQCdASoQABAABIByJQBWABuZOuF4AAD+726giDCQH8b3A6NNgzSzbAG5qykf4KMXj1v0KJEq0l9ETqithTbdAFtxjx5eRxMh787iKwKBfyYymhJSrJoAAAA=",
-    "breakfast": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAADwAQCdASoQABAABIByJbACdADOnknY9eAA/sdkoZCDClx1ubJHCYJxPeQml8uAUFo1KQVI9ZqUMsgmnkDhd/DBtoR3OXnOWBiCWSZOoI/VD6LWkQ2+VoXOnQZnoYvBZsw3TX5F9AAAAA==",
+    "interior": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAQCdASoQABAABIByJQBWABuZO8KKLAAA/u9uoIgm2vbWErsaGbD6jBKNjVsaWdg5c/X/HnpdNc/3jjXKcsaQr6pJpqFJceLq5gbBJqPcfc9iOOMmYWAAAAA=",
+    "breakfast": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAADwAQCdASoQABAABIByJbACdADOnknYqAAA/sdkoZCDClx1ubJHCYJxPeQml8uAUFo1KQVI9ZqUMsgmnkDhd/DBtoR3OXnOWBVpeHqsqUO5oZogOO0n/VmqGOBVTI6y6LNmG6a/IvoAAA==",
     "halalChicken": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAABwAgCdASoQABAABIByJbACdAdwLfDuXws1b7yQAP7F/OGrr13xmNyIA9T31KArY2ShTZ8ibrnDam12nNAty8VQBUs1qtojUXCvIslQeLEN+WYQRBUzvfJTB/H9OVFF25cyEDNXkozsFKFhrwv0AA=="
   },
   "videos": {
     "desktop": "/videos/yamas-hero.mp4",
-    "mobile": "/videos/yamas-hero.mp4"
+    "mobile": "/videos/yamas-hero-mobile.mp4"
   }
 } as const;

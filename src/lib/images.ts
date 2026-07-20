@@ -36,6 +36,8 @@ export function getBlurForSrc(src: string): string | undefined {
 /** Responsive `sizes` presets */
 export const IMAGE_SIZES = {
   hero: "100vw",
+  /** Mobile LCP poster: request ~750px; desktop can go larger */
+  heroPoster: "(max-width: 767px) 750px, 1280px",
   fullWidth: "(max-width: 768px) 100vw, 90vw",
   half: "(max-width: 768px) 100vw, 50vw",
   card: "(max-width: 640px) 90vw, (max-width: 1024px) 50vw, 420px",

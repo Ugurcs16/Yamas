@@ -18,7 +18,7 @@ const GENERATED = path.join(ROOT, "src/generated/media-manifest.ts");
 const FFMPEG = ffmpegStatic;
 
 const IMAGE_PROFILES = {
-  "yamas-hero-poster.jpg": { maxWidth: 1920, quality: 82, blur: true, lcp: true },
+  "yamas-hero-poster.jpg": { maxWidth: 1280, quality: 72, blur: true, lcp: true },
   "gyros-premium.jpg": { maxWidth: 1400, quality: 80, blur: true },
   "souvlaki-premium.jpg": { maxWidth: 1400, quality: 80, blur: true },
   "salad-premium.jpg": { maxWidth: 1400, quality: 80, blur: true },
@@ -142,8 +142,11 @@ async function optimizeImages() {
   return manifest;
 }
 
-function encodeVideo(input, output, { width, crf, label }) {
+function encodeVideo(input, output, { width, crf, label, fps, duration }) {
   if (!FFMPEG) throw new Error("ffmpeg-static not available");
+  const vf = [`scale=${width}:-2`];
+  if (fps) vf.push(`fps=${fps}`);
+
   const args = [
     "-y",
     "-i",
@@ -162,9 +165,15 @@ function encodeVideo(input, output, { width, crf, label }) {
     "-movflags",
     "+faststart",
     "-vf",
-    `scale=${width}:-2`,
-    output,
+    vf.join(","),
   ];
+
+  if (duration) {
+    args.push("-t", String(duration));
+  }
+
+  args.push(output);
+
   console.log(`  encoding ${label}…`);
   execFileSync(FFMPEG, args, { stdio: "inherit" });
   const stat = fs.statSync(output);
@@ -174,27 +183,39 @@ function encodeVideo(input, output, { width, crf, label }) {
 
 function optimizeVideos() {
   console.log("\n🎬 Video");
-  const input = path.join(VIDEOS_DIR, "yamas-hero.mp4");
-  if (!fs.existsSync(input)) {
-    console.warn("  skip: yamas-hero.mp4 not found");
-    return { desktop: null, mobile: null };
+  const desktopRel = "/videos/yamas-hero.mp4";
+  const mobileRel = "/videos/yamas-hero-mobile.mp4";
+  const desktopFile = path.join(VIDEOS_DIR, "yamas-hero.mp4");
+  const mobileFile = path.join(VIDEOS_DIR, "yamas-hero-mobile.mp4");
+
+  if (!fs.existsSync(desktopFile)) {
+    console.warn("  skip: yamas-hero.mp4 not found — manifest still points to expected paths");
+    return { desktop: desktopRel, mobile: mobileRel };
   }
 
-  const backup = path.join(VIDEOS_DIR, "yamas-hero.source.mp4");
-  if (!fs.existsSync(backup)) {
-    fs.copyFileSync(input, backup);
-    console.log(`  backed up original → yamas-hero.source.mp4`);
+  // Never overwrite the desktop master. Build a lightweight mobile derivative only.
+  const source = desktopFile;
+  const desktopSize = fs.statSync(desktopFile).size;
+  console.log(`  desktop kept as-is: ${formatBytes(desktopSize)}`);
+
+  encodeVideo(source, mobileFile, {
+    width: 720,
+    crf: 28,
+    fps: 24,
+    duration: 8,
+    label: "mobile 720p / 24fps / 8s",
+  });
+
+  const mobileSize = fs.statSync(mobileFile).size;
+  if (mobileSize > 8 * 1024 * 1024) {
+    console.warn(
+      `  warning: mobile video is ${formatBytes(mobileSize)} (target ≤ 8 MB) — consider a tighter CRF`
+    );
   }
 
-  const desktopOut = path.join(VIDEOS_DIR, "yamas-hero.mp4");
-  const source = fs.existsSync(backup) ? backup : input;
-
-  encodeVideo(source, desktopOut, { width: 1280, crf: 26, label: "web 1280p" });
-
-  // Single shared web source for desktop and mobile (no separate mobile file)
   return {
-    desktop: "/videos/yamas-hero.mp4",
-    mobile: "/videos/yamas-hero.mp4",
+    desktop: desktopRel,
+    mobile: mobileRel,
   };
 }
 

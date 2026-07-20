@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 
 const navBtn =
-  "flex flex-1 flex-col items-center justify-center gap-1 min-h-[52px] px-2 py-2 rounded-sm text-[10px] uppercase tracking-[0.14em] font-medium transition-colors duration-300 touch-manipulation";
+  "flex flex-1 flex-col items-center justify-center gap-0.5 h-full px-2 py-1.5 rounded-sm text-[10px] uppercase tracking-[0.14em] font-medium transition-colors duration-300 touch-manipulation";
 
 export function MobileCTA() {
   const t = useTranslations("mobileCta");
@@ -16,24 +16,24 @@ export function MobileCTA() {
   return (
     <motion.div
       className="fixed bottom-0 left-0 right-0 z-40 lg:hidden"
-      initial={reducedMotion ? false : { y: 80 }}
+      initial={reducedMotion ? false : { y: 64 }}
       animate={{ y: 0 }}
-      transition={reducedMotion ? { duration: 0 } : { delay: 0.6, type: "spring", stiffness: 200, damping: 26 }}
+      transition={reducedMotion ? { duration: 0 } : { delay: 0.5, duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
       role="navigation"
       aria-label={t("callAria")}
     >
       <div
         className={cn(
-          "mx-3 mb-[max(0.5rem,env(safe-area-inset-bottom))] rounded-sm",
-          "border border-champagne/25",
-          "bg-[rgba(10,12,10,0.92)] backdrop-blur-2xl",
-          "shadow-[0_-8px_32px_rgba(0,0,0,0.5),0_0_0_1px_rgba(201,164,92,0.08)_inset]"
+          "mx-3 mb-[max(0.4rem,env(safe-area-inset-bottom))] h-16 rounded-sm",
+          "border border-champagne/20",
+          "bg-[rgba(10,12,10,0.94)] backdrop-blur-md",
+          "shadow-[0_-4px_20px_rgba(0,0,0,0.4)]"
         )}
       >
-        <div className="flex items-stretch divide-x divide-champagne/15 p-1.5">
+        <div className="flex items-stretch h-full divide-x divide-champagne/15 p-1">
           <a
             href={SITE.phoneHref}
-            className={cn(navBtn, "text-champagne bg-champagne/10 hover:bg-champagne/15")}
+            className={cn(navBtn, "text-champagne bg-champagne/10")}
             aria-label={t("callAria")}
           >
             <PhoneIcon />
@@ -43,7 +43,7 @@ export function MobileCTA() {
             href={SITE.mapsUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className={cn(navBtn, "text-ivory-muted hover:text-champagne hover:bg-ivory/[0.04]")}
+            className={cn(navBtn, "text-ivory-muted")}
             aria-label={t("routeAria")}
           >
             <MapIcon />
@@ -51,7 +51,7 @@ export function MobileCTA() {
           </a>
           <a
             href="#speisekarte"
-            className={cn(navBtn, "text-ivory-muted hover:text-champagne hover:bg-ivory/[0.04]")}
+            className={cn(navBtn, "text-ivory-muted")}
             aria-label={t("menuAria")}
           >
             <MenuIcon />

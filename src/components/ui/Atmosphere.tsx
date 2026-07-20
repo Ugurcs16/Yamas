@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 export function FilmGrain({ className = "" }: { className?: string }) {
   return (
     <div
-      className={`pointer-events-none absolute inset-0 z-[3] opacity-[0.055] mix-blend-overlay ${className}`}
+      className={`pointer-events-none absolute inset-0 z-[3] opacity-[0.055] mix-blend-overlay hidden md:block ${className}`}
       aria-hidden
       style={{
         backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")`,
@@ -41,11 +41,12 @@ export function GoldenBloom({
         className={`pointer-events-none absolute inset-0 z-[1] ${className}`}
         aria-hidden
         style={{
-          background: `radial-gradient(ellipse 55% 45% at ${position}, rgba(201,164,92,0.32) 0%, rgba(184,92,56,0.08) 35%, transparent 65%)`,
+          background: `radial-gradient(ellipse 55% 45% at ${position}, rgba(201,164,92,0.28) 0%, rgba(184,92,56,0.06) 35%, transparent 65%)`,
         }}
       />
+      {/* Animated bloom — desktop only */}
       <motion.div
-        className="pointer-events-none absolute z-[1] w-[min(90vw,700px)] h-[min(70vh,600px)] rounded-full blur-[100px]"
+        className="pointer-events-none absolute z-[1] w-[min(90vw,700px)] h-[min(70vh,600px)] rounded-full blur-[100px] hidden md:block"
         style={{ left: "20%", top: "25%", background: "rgba(201, 164, 92, 0.12)" }}
         animate={{ opacity: [0.5, 0.85, 0.5], scale: [1, 1.08, 1] }}
         transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
@@ -59,7 +60,7 @@ export function AtmosphericFog({ className = "" }: { className?: string }) {
   return (
     <>
       <motion.div
-        className={`pointer-events-none absolute bottom-0 left-0 right-0 h-[45%] z-[2] ${className}`}
+        className={`pointer-events-none absolute bottom-0 left-0 right-0 h-[45%] z-[2] hidden md:block ${className}`}
         style={{
           background:
             "linear-gradient(to top, rgba(20,12,8,0.65) 0%, rgba(111,125,69,0.06) 40%, transparent 100%)",
@@ -69,7 +70,7 @@ export function AtmosphericFog({ className = "" }: { className?: string }) {
         aria-hidden
       />
       <motion.div
-        className="pointer-events-none absolute bottom-[10%] left-[-10%] w-[60%] h-[30%] z-[2] rounded-full blur-[80px]"
+        className="pointer-events-none absolute bottom-[10%] left-[-10%] w-[60%] h-[30%] z-[2] rounded-full blur-[80px] hidden md:block"
         style={{ background: "rgba(248, 241, 231, 0.04)" }}
         animate={{ x: [0, 40, 0], opacity: [0.3, 0.5, 0.3] }}
         transition={{ duration: 14, repeat: Infinity, ease: "easeInOut" }}
@@ -90,7 +91,10 @@ const PARTICLES = [
 
 export function FloatingParticles({ className = "" }: { className?: string }) {
   return (
-    <div className={`pointer-events-none absolute inset-0 z-[3] overflow-hidden ${className}`} aria-hidden>
+    <div
+      className={`pointer-events-none absolute inset-0 z-[3] overflow-hidden hidden md:block ${className}`}
+      aria-hidden
+    >
       {PARTICLES.map((p, i) => (
         <motion.span
           key={i}
@@ -118,7 +122,7 @@ export function FloatingParticles({ className = "" }: { className?: string }) {
 export function DriftingLight({ className = "" }: { className?: string }) {
   return (
     <motion.div
-      className={`pointer-events-none absolute inset-0 z-[1] ${className}`}
+      className={`pointer-events-none absolute inset-0 z-[1] hidden md:block ${className}`}
       style={{
         background:
           "linear-gradient(125deg, rgba(184,92,56,0.08) 0%, transparent 40%, rgba(201,164,92,0.06) 60%, transparent 100%)",
@@ -132,13 +136,24 @@ export function DriftingLight({ className = "" }: { className?: string }) {
 
 export function HeroAtmosphere() {
   return (
-    <>
+    <div className="pointer-events-none absolute inset-0 z-[3]" aria-hidden>
+      {/* Mobile: static vignette + soft bloom only */}
+      <div
+        className="absolute inset-0 md:hidden"
+        style={{
+          background:
+            "radial-gradient(ellipse 55% 45% at 38% 40%, rgba(201,164,92,0.22) 0%, transparent 65%)",
+        }}
+      />
+      <CinematicVignette className="md:hidden" />
+
+      {/* Desktop: full cinematic atmosphere */}
       <DriftingLight />
       <GoldenBloom position="38% 40%" />
       <AtmosphericFog />
-      <CinematicVignette />
+      <CinematicVignette className="hidden md:block" />
       <FilmGrain />
       <FloatingParticles />
-    </>
+    </div>
   );
 }
